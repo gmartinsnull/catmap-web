@@ -1,0 +1,27 @@
+export type Listing = {
+  id: number;
+  userId: number;
+  name: string;
+  address: string;
+  city: string;
+  isSuperhost: string;
+  lat: number;
+  lng: number;
+  persons: number;
+  rating: number;
+  reviewsCount: number;
+  type: string;
+  cancelPolicy: string;
+  deeplink: string;
+  hostThumbnail: string;
+  price_currency: string;
+  price_rate: number;
+  price_total: number;
+  bathrooms: number;
+  bedrooms: number;
+  beds: number;
+  previewAmenities: string;
+  url: string;
+  images: string[];
+  amenityIds: number[];
+};
